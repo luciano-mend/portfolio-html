@@ -1,29 +1,59 @@
-# Portfólio Pessoal
+# Portfólio Pessoal - Luciano Mendonça
 
-Este é um projeto de um portfólio pessoal simples, criado para apresentar informações sobre um desenvolvedor Front-end, incluindo links para suas redes sociais.
+Este é o projeto de um portfólio pessoal desenvolvido para apresentar as habilidades e a trajetória profissional de Luciano Mendonça, desenvolvedor com foco em Front-end.
+
+## 📖 Sobre o Projeto
+
+O site é composto por três seções principais, cada uma com um propósito específico para fornecer uma visão completa sobre o perfil do desenvolvedor:
+
+*   **Home:** A página inicial, que serve como um cartão de visitas digital. Nela, Luciano se apresenta, destaca suas principais competências em desenvolvimento Front-end e convida os visitantes a explorarem seu trabalho e entrarem em contato.
+*   **Sobre mim:** Uma seção dedicada a aprofundar a história profissional de Luciano. Aqui, ele detalha sua transição de carreira, sua experiência com Engenharia de Qualidade, e como essa bagagem contribui para a criação de soluções Front-end robustas e de alta qualidade.
+*   **Currículo:** Esta página apresenta um resumo estruturado da sua jornada acadêmica e profissional, listando suas experiências de trabalho, cursos e especializações mais relevantes.
+
+O design do site é limpo e moderno, com foco na usabilidade e na apresentação clara das informações.
 
 ## ✨ Tecnologias Utilizadas
 
-*   **HTML5:** Utilizado para a estrutura e o conteúdo da página.
-*   **CSS3:** Utilizado para a estilização, layout e design responsivo da página.
-*   **Google Fonts:** Para a importação de fontes customizadas (`Krona One` e `Montserrat`).
+O projeto foi construído utilizando tecnologias web consolidadas, garantindo compatibilidade e uma base sólida para futuras expansões:
 
-## 🚀 Como Executar o Projeto
+*   **HTML5:** Para a estrutura semântica e o conteúdo de todas as páginas.
+*   **CSS3:** Para a estilização completa, incluindo layout, design responsivo e a criação de uma identidade visual coesa.
 
-Este projeto é uma página da web estática e não requer nenhum servidor ou processo de compilação.
+## 🚀 Como Executar
 
-1.  Clone ou faça o download deste repositório.
-2.  Navegue até o diretório do projeto.
-3.  Abra o arquivo `index.html` diretamente no seu navegador de preferência (Google Chrome, Mozilla Firefox, Microsoft Edge, etc.).
+Por ser um projeto web estático, não há necessidade de um ambiente de servidor complexo. Para visualizá-lo:
 
-E pronto! A página será exibida.
+1.  Clone este repositório para a sua máquina local.
+2.  Navegue até o diretório raiz do projeto.
+3.  Abra o arquivo `index.html` em seu navegador de preferência.
 
 ## 📂 Estrutura do Projeto
 
+A organização dos arquivos foi pensada para manter o código limpo e de fácil manutenção:
+
 ```
-.
-├── index.html               # Arquivo principal com a estrutura da página
-├── style.css                # Folha de estilos para o design da página
-├── img-portfolio-pessoa.png # Imagem de perfil exibida na página
-└── README.md                # Este arquivo
+portfolio-html/
+├── .gitignore
+├── index.html               # Página inicial
+├── about.html               # Página "Sobre mim"
+├── curriculo.html           # Página "Currículo"
+├── README.md                # Este arquivo
+├── assets/                  # Diretório para imagens e ícones
+│   ├── github.png
+│   ├── img-portfolio-pessoa.png
+│   ├── instagram.png
+│   ├── linkedin.png
+│   └── ...
+└── styles/                  # Diretório para folhas de estilo
+    └── style.css
 ```
+
+## 📫 Contato
+
+Você pode encontrar Luciano Mendonça nas seguintes redes:
+
+*   **GitHub:** [luciano-mend](https://github.com/luciano-mend)
+*   **LinkedIn:** [Luciano Mendonça](https://linkedin.com/in/luciano-mendonça-85b52a7b/)
+
+---
+*Desenvolvido com dedicação por Luciano Mendonça.*

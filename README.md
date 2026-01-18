@@ -17,7 +17,7 @@ O design do site é limpo e moderno, com foco na usabilidade e na apresentação
 O projeto foi construído utilizando tecnologias web consolidadas, garantindo compatibilidade e uma base sólida para futuras expansões:
 
 *   **HTML5:** Para a estrutura semântica e o conteúdo de todas as páginas.
-*   **CSS3:** Para a estilização completa, incluindo layout, design responsivo e a criação de uma identidade visual coesa.
+*   **CSS3:** Para a estilização completa do projeto. Foram utilizados recursos como **Flexbox** para a criação de layouts flexíveis e **Media Queries** para garantir a responsividade do site em diferentes dispositivos.
 
 ## 🚀 Como Executar
 
@@ -47,6 +47,16 @@ portfolio-html/
 └── styles/                  # Diretório para folhas de estilo
     └── style.css
 ```
+
+## 📱 Responsividade
+
+O projeto foi desenvolvido com uma abordagem *mobile-first*, garantindo uma experiência de usuário consistente em diferentes dispositivos. Para telas menores, como as de tablets e smartphones, o layout se adapta da seguinte forma:
+
+*   **Header:** O menu de navegação é centralizado para facilitar o acesso.
+*   **Conteúdo Principal:** O layout de duas colunas (texto e imagem) é ajustado para uma única coluna, com a imagem sendo exibida acima do texto de apresentação, otimizando o uso do espaço vertical.
+*   **Ajustes Gerais:** O preenchimento e o espaçamento dos elementos são recalculados para se adequarem melhor a telas com largura de até 1200px.
+
+Esses ajustes são implementados com o uso de **Media Queries** em CSS, que aplicam estilos específicos com base nas dimensões da tela.
 
 ## 📫 Contato
 
